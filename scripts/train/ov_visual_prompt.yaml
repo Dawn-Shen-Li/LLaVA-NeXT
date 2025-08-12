@@ -1,0 +1,34 @@
+datasets:
+# LLaVA-VL
+  - json_path: /home/shenli/Project/LLaVA-NeXT/playground/llava_v1_5_mix665k_v1.json
+    sampling_strategy: "all"
+# refcocodata
+  - json_path: /data/coco/annotations/lvis/lvis_v1_train_qwen1.5_vp.json
+    sampling_strategy: "all"
+  - json_path: /data/coco/annotations/refclef/instances_qwen1.5_vp.json
+    sampling_strategy: "all"
+  - json_path: /data/coco/annotations/refcoco/instances_qwen1.5_vp.json
+    sampling_strategy: "all"
+  - json_path: /data/coco/annotations/refcoco+/instances_qwen1.5_vp.json
+    sampling_strategy: "all"
+  - json_path: /data/coco/annotations/refcocog/instances_qwen1.5_vp.json
+    sampling_strategy: "all"
+# xdecoder
+  - json_path: /data/coco/annotations/xdecoder/grounding_train2017_filtrefgumdval_filtvlp_qwen1.5_vp.json
+    sampling_strategy: "all"
+  - json_path: /data/coco/annotations/xdecoder/panoptic_train2017_filtrefgumdval_filtvlp_qwen1.5_vp.json
+    sampling_strategy: "all"
+  # val
+  #- json_path: /data/coco/annotations/xdecoder/refcocog_umd_val_qwen1.5_vq.json
+  #  sampling_strategy: "all"
+# llmdet
+  - json_path: /data/llava_cap/LLaVA-ReCap-558K_tag_box_vg7_qwen1.5_vp.json
+    sampling_strategy: "all"
+  - json_path: /data/flickr30k/flickr_train_vg7_qwen1.5_vp.json
+    sampling_strategy: "all"
+  - json_path: /data/gqa/gqa_train_vg7.jsonl_qwen1.5_vp.json
+    sampling_strategy: "all"
+  - json_path: /data/v3det/annotations/v3det_2023_v1_train_vg7_qwen1.5_vp.jsonl
+    sampling_strategy: "all"
+  - json_path: /data/coco/annotations/llmdet/instances_train2017_vg_merged6_qwen1.5_vp.json
+    sampling_strategy: "all"
