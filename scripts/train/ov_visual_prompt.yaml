@@ -22,13 +22,13 @@ datasets:
   #- json_path: /data/coco/annotations/xdecoder/refcocog_umd_val_qwen1.5_vq.json
   #  sampling_strategy: "all"
 # llmdet
-  - json_path: /data/llava_cap/LLaVA-ReCap-558K_tag_box_vg7_qwen1.5_vp.json
+  - json_path: /data/llava_cap/LLaVA-ReCap-558K_tag_box_vg7_qwen1.5_vp.jsonl
     sampling_strategy: "all"
-  - json_path: /data/flickr30k/flickr_train_vg7_qwen1.5_vp.json
+  - json_path: /data/flickr30k/flickr_train_vg7_qwen1.5_vp.jsonl
     sampling_strategy: "all"
-  - json_path: /data/gqa/gqa_train_vg7.jsonl_qwen1.5_vp.json
+  - json_path: /data/gqa/gqa_train_vg7.jsonl_qwen1.5_vp.jsonl
     sampling_strategy: "all"
   - json_path: /data/v3det/annotations/v3det_2023_v1_train_vg7_qwen1.5_vp.jsonl
     sampling_strategy: "all"
-  - json_path: /data/coco/annotations/llmdet/instances_train2017_vg_merged6_qwen1.5_vp.json
+  - json_path: /data/coco/annotations/llmdet/instances_train2017_vg_merged6_qwen1.5_vp.jsonl
     sampling_strategy: "all"
